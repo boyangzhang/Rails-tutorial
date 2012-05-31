@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+ruby '1.9.3'
+
+gem 'rails', '3.2.4.rc1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -37,8 +39,8 @@ gem 'jquery-rails', '2.0.0'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'sqlite3', group => [:development, :test]
-group :production do
-      gem 'thin'
-      gem 'pg'
-end
+#gem 'sqlite3', :group => [:development, :test]
+#group :production do
+#      gem 'thin'
+#      gem 'pg'
+#end
